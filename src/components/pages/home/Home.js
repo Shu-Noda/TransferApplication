@@ -27,7 +27,7 @@ const Home = () => {
       <h1>ホーム</h1>
       
       <div>
-        metamask接続は<Link to={`./home2`}>こちら</Link>
+        metamask接続は<Link to={`../home2`}>こちら</Link>
       </div>
       
       </div>
