@@ -30,7 +30,7 @@ function HomeSix(props) {
               console.log('更新によるアクセス');
               alert("リロードしたため初期画面に戻ります");
               setTimeout(function(){
-                window.location.href = 'http://localhost:3000';
+                window.location.href = 'http://Shu-Noda.github.io/TransferApplication';
               }, 2*1000);
               break;
             case 'back_forward':
