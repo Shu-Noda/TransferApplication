@@ -17,7 +17,7 @@ function App() {
   const [signer, setSigner] = useState(null);
 	const [contract, setContract] = useState(null);
 
-  const homeUrl = "https://shu-noda.github.io/";
+  const homeUrl = process.env.PUBLIC_URL;
 
 
 
