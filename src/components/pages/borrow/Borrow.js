@@ -149,10 +149,10 @@ function Borrow(props){
 
 
       <div>
-        新規登録は<Link to={`/TransferApplication/register/`}>こちら</Link>
+        新規登録は<Link to={`/TransferApplication/register`}>こちら</Link>
       </div>
       <div>
-        <Link to={`../home6`}>ホームに戻る</Link>
+        <Link to={"/TransferApplication/home6"}>ホームに戻る</Link>
       </div>
     </div>
     </>
