@@ -17,19 +17,23 @@ function App() {
   const [signer, setSigner] = useState(null);
 	const [contract, setContract] = useState(null);
 
+  const homeUrl = process.env.PUBLIC_URL;
+
+
+
   return (
     <BrowserRouter>
       <Routes>
       
-        <Route path="/TransferApplication" element={<Home />} />
+        <Route path={homeUrl} element={<Home />} />
 
-        <Route path="/TransferApplication/home2" element={<HomeTwo contract={contract} setContract={setContract}/>}/>
+        <Route path={homeUrl+"/home2"} element={<HomeTwo contract={contract} setContract={setContract}/>}/>
 
-        <Route path="/TransferApplication/home6" element={<HomeSix contract={contract} setContract={setContract}/>}/>
-        <Route path={`/TransferApplication/register/`} element={<Register contract={contract} setContract={setContract}/>} />
-        <Route path={`/TransferApplication/borrow/`} element={<Borrow contract={contract} setContract={setContract}/>} />
-        <Route path="/TransferApplication/cor" element={<COR />}/>
-        <Route path="/TransferApplication/returns" element={<Returns contract={contract} setContract={setContract}/>}/>
+        <Route path={homeUrl+"/home6"} element={<HomeSix contract={contract} setContract={setContract}/>}/>
+        <Route path={homeUrl+"/register"} element={<Register contract={contract} setContract={setContract}/>} />
+        <Route path={homeUrl+"/borrow"} element={<Borrow contract={contract} setContract={setContract}/>} />
+        <Route path={homeUrl+"/cor"} element={<COR />}/>
+        <Route path={homeUrl+"/returns"} element={<Returns contract={contract} setContract={setContract}/>}/>
       </Routes>
     </BrowserRouter>
   );
