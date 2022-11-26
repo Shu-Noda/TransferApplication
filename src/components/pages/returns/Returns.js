@@ -110,7 +110,7 @@ function Returns(props){
 
             <p></p>
 
-            <Link to={'/TransferApplication/home6'}>ホーム</Link>へ戻る
+            <Link to={'../home6'}>ホーム</Link>へ戻る
 
 
 
