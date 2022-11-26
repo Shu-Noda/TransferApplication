@@ -12,7 +12,7 @@ function HomeFive(props){
     return(
         <>
         <div>
-        　次は<Link to={`../home6`} >こちら</Link>           
+        　次は<Link to={`/TransferApplication/home6`} >こちら</Link>           
         </div>
         </>
 

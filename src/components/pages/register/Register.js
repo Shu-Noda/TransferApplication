@@ -45,7 +45,7 @@ function Register(props){
     <>
       <h1>譲渡品登録ページ</h1>
       <div>
-        <Link to={`../home6`}>ホームに戻る</Link>
+        <Link to={`/TransferApplication/home6`}>ホームに戻る</Link>
       </div>
 
       <div>

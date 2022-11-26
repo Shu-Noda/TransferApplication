@@ -223,15 +223,15 @@ function HomeSix(props) {
         
             <div>
 
-                登録は<Link to={`../register`} >こちら</Link>
+                登録は<Link to={`/TransferApplication/register`} >こちら</Link>
                 
             </div>
             <div>
-                貸出は<Link to={`../borrow`}>こちら</Link>
+                貸出は<Link to={`/TransferApplication/borrow`}>こちら</Link>
                 
             </div>
             <div>
-                返品は<Link to={'../returns'}>こちら</Link>
+                返品は<Link to={'/TransferApplication/returns'}>こちら</Link>
             </div>
         </div>
             
