@@ -21,15 +21,15 @@ function App() {
     <BrowserRouter>
       <Routes>
       
-        <Route path="/" element={<Home />} />
+        <Route path="/TransferApplication" element={<Home />} />
 
-        <Route path="home2" element={<HomeTwo contract={contract} setContract={setContract}/>}/>
+        <Route path="/TransferApplication/home2" element={<HomeTwo contract={contract} setContract={setContract}/>}/>
 
-        <Route path="home6" element={<HomeSix contract={contract} setContract={setContract}/>}/>
-        <Route path={`/register/`} element={<Register contract={contract} setContract={setContract}/>} />
-        <Route path={`/borrow/`} element={<Borrow contract={contract} setContract={setContract}/>} />
-        <Route path="cor" element={<COR />}/>
-        <Route path="returns" element={<Returns contract={contract} setContract={setContract}/>}/>
+        <Route path="/TransferApplication/home6" element={<HomeSix contract={contract} setContract={setContract}/>}/>
+        <Route path={`/TransferApplication/register/`} element={<Register contract={contract} setContract={setContract}/>} />
+        <Route path={`/TransferApplication/borrow/`} element={<Borrow contract={contract} setContract={setContract}/>} />
+        <Route path="/TransferApplication/cor" element={<COR />}/>
+        <Route path="/TransferApplication/returns" element={<Returns contract={contract} setContract={setContract}/>}/>
       </Routes>
     </BrowserRouter>
   );
